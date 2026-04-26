@@ -14,6 +14,7 @@ export default function Home() {
       {/* <Pricing /> */}
       <Contact />
       <Footer />
+      {/* Botón de Whatsapp flotando en la parte inferior derecha de la pantalla */}
       <a
           href="https://wa.me/5491112345678?text=Hola,%20quiero%20consultar%20por%20un%20turno%20para%20un%20servicio%20de%20barberia"
           target="_blank"
