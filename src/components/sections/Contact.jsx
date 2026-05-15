@@ -40,20 +40,20 @@ export default function Contact() {
             <div className="group h-max bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 justify-items-center">
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Nuestra dirección:</h3>
 
-              <div className='grid grid-cols-1 grid-rows-1 w-full md:grid-rows-2 gap-8'>
-                <div className='w-max align-middle'>
+              <div className='grid grid-cols-1 grid-rows-1 w-full gap-8'>
+                <div className='align-middle'>
                   <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1381.037693874275!2d-58.409532834516156!3d-34.586970207394934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1778248493091!5m2!1ses-419!2sar" 
-                    className="w-auto h-auto md:h-[300px] rounded-2xl shadow-lg"
+                    className="w-full md:h-[300px] rounded-2xl shadow-lg"
                     style={{ border:0 }} 
                     allowFullScreen
                     loading="lazy" 
                     referrerPolicy="no-referrer-when-downgrade">
                   </iframe>
                 </div>
-                <div className='grid h-fit content-center'>
-                  <p className="text-xl text-gray-600 justify-self-center w-fit my-4"> Coronel Díaz 2122</p>
-                  <p className="text-xl text-gray-600 justify-self-center w-fit my-4">Palermo - CABA</p>
+                <div className='grid'>
+                  <p className="text-xl text-gray-600 justify-self-center w-fit"> Coronel Díaz 2122</p>
+                  <p className="text-xl text-gray-600 justify-self-center w-fit">Palermo - CABA</p>
                 </div>
               </div>
             </div>
