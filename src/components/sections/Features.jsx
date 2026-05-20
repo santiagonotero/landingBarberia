@@ -50,7 +50,8 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-24 bg-gradient-to-b from-white to-gray-50 reveal">
+    <section id="features" className="py-24 bg-gradient-to-b " >
+    {/* from-white to-gray-50 reveal"> */}
       <div className="container-custom section-padding">
         <RevealSection direction="up">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -69,7 +70,7 @@ export default function Features() {
               direction="up"
               delay={index * 0.1}
             >
-              <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 justify-items-center">
+              <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 justify-items-center h-full">
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">
                   {feature.title}
                 </h3>

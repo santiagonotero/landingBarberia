@@ -1,28 +1,11 @@
 'use client'
 
-
-import { 
-  Zap, 
-  Shield, 
-  BarChart3, 
-  Cloud, 
-  Users, 
-  Globe 
-} from 'lucide-react'
-
-import { ArrowRight, Sparkles } from 'lucide-react'
 import RevealSection from '../RevealSection'
 
 export default function Contact() {
-  // const scrollToContact = () => {
-  //   const element = document.querySelector('#contact')
-  //   if (element) {
-  //     element.scrollIntoView({ behavior: 'smooth' })
-  //   }
-  // }
 
   return (
-    <section id="contact" className="py-24 bg-gradient-to-b from-white to-gray-50 reveal">
+    <section id="contact" className="max-sm:py-10 py-24 bg-gradient-to-b from-white to-gray-50 reveal">
       <div className="flex flex-col container-custom section-padding">
         <RevealSection direction='up'>
           <div className="text-center max-w-3xl mx-auto mb-16">

@@ -1,7 +1,6 @@
 import Hero from '@/components/sections/Hero'
 import Features from '@/components/sections/Features'
 import Testimonials from '@/components/sections/Testimonials'
-import Pricing from '@/components/sections/Pricing'
 import Contact from '@/components/sections/Contact'
 import Footer from '@/components/sections/Footer'
 
@@ -11,7 +10,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Testimonials />
-      {/* <Pricing /> */}
       <Contact />
       <Footer />
       {/* Botón de Whatsapp flotando en la parte inferior derecha de la pantalla */}

@@ -1,8 +1,5 @@
 'use client'
 
-import { ArrowRight, Sparkles } from 'lucide-react'
-import RevealSection from '../RevealSection'
-
 export default function Hero() {
   const scrollToContact = () => {
     const element = document.querySelector('#contact')
