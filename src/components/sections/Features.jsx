@@ -57,7 +57,7 @@ export default function Features() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Nuestros servicios
+                Los servicios que te ofrecemos
               </span>
             </h2>
           </div>

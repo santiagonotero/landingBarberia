@@ -6,8 +6,6 @@ const testimonials = [
   {
     id: 1,
     name: "Valentín P.",
-    role: "Directora de Marketing",
-    company: "Nexo Studio",
     avatar: "VR",
     image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Alexander',
     color: "from-violet-500 to-purple-600",
@@ -17,8 +15,6 @@ const testimonials = [
   {
     id: 2,
     name: "Carlos R.",
-    role: "CTO",
-    company: "DataFlow Inc.",
     avatar: "MC",
     image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos',
     color: "from-teal-500 to-emerald-600",
@@ -28,8 +24,6 @@ const testimonials = [
   {
     id: 3,
     name: 'Diego F.',
-    role: "Fundadora",
-    company: "Bloom Agency",
     avatar: "LV",
     image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Aiden',
     color: "from-rose-500 to-pink-600",
@@ -39,8 +33,6 @@ const testimonials = [
   {
     id: 4,
     name: 'Johnatan C.',
-    role: "Product Manager",
-    company: "Klipper App",
     avatar: "JC",
     color: "from-amber-500 to-orange-600",
     text: 'Ellos supieron entender exactamente lo que quería hacer con mi barba y lo hicieron de 10. Ahora voy siempre',
