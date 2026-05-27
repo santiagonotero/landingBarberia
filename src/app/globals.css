@@ -33,14 +33,26 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background: linear-gradient(135deg, #ffdf20 0%, #d08700 100%);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+  background: linear-gradient(135deg, #fff085 0%, #efb100 100%);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'BirchStd';
+  src: url('/fonts/BirchStd.woff2') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'BirchStd', sans-serif;
 }

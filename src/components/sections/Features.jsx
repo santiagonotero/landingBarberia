@@ -55,11 +55,12 @@ export default function Features() {
       <div className="container-custom section-padding">
         <RevealSection direction="up">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-5xl md:text-5xl lg:text-6xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-yellow-600 to-yellow-300 bg-clip-text text-transparent">
                 Los servicios que te ofrecemos
               </span>
             </h2>
+            <p className='font-sans text-xl text-gray-300'>En Barbería Central sabemos escuchar a nuestros clientes, y gracias a tantos años de experiencia podemos darle a cada uno de ellos el estilo exacto que están buscando.</p>
           </div>
         </RevealSection>
 
@@ -70,9 +71,11 @@ export default function Features() {
               direction="up"
               delay={index * 0.1}
             >
-              <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 justify-items-center h-full">
-                <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                  {feature.title}
+              <div className="group p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:shadow-yellow-600 transition-all duration-300 hover:-translate-y-2 border border-yellow-600  justify-items-center h-full">
+                <h3 className="text-4xl md:text-4xl sm:text-xl font-bold mb-4">
+                  <span className='bg-gradient-to-r from-yellow-600 to-yellow-300 bg-clip-text text-transparent'>
+                    {feature.title}
+                  </span>
                 </h3>
                 <img src={feature.image}></img>
               </div>

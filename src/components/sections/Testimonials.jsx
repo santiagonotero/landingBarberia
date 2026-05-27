@@ -65,7 +65,7 @@ const QuoteIcon = () => (
 // Tarjeta individual de testimonio
 function TestimonialCard({ t }) {
   return (
-    <div className="flex flex-col gap-4 bg-white rounded-2xl border border-gray-100 shadow-sm px-6 h-full">
+    <div className="flex flex-col gap-4 rounded-2xl border border-yellow-600 shadow-sm px-6 h-full">
       {/* Avatar + nombre + estrellas */}
       <div className="flex items-center gap-3">
         <div className={`w-12 h-12 rounded-full overflow-hidden bg-gradient-to-br ${t.color} flex-shrink-0`}>
@@ -78,7 +78,7 @@ function TestimonialCard({ t }) {
           )}
         </div>
         <div className="flex-1 min-w-0">
-          <p className="font-semibold text-gray-900 text-sm truncate">{t.name}</p>
+          <p className="font-sans font-semibold text-gray-100 text-sm truncate">{t.name}</p>
           <div className="flex gap-0.5 mt-0.5">
             {Array.from({ length: 5 }).map((_, i) => (
               <StarIcon key={i} filled={i < t.rating} />
@@ -90,7 +90,7 @@ function TestimonialCard({ t }) {
       {/* Texto */}
       <div className="flex-1">
         <QuoteIcon />
-        <p className="text-gray-600 text-sm leading-relaxed mt-1 italic">
+        <p className="text-gray-400 text-sm leading-relaxed mt-1 italic">
           "{t.text}"
         </p>
       </div>
@@ -164,12 +164,12 @@ export default function Testimonials() {
  
         {/* Encabezado */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="font-[BirchStd] text-5xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <span className="bg-gradient-to-r from-yellow-600 to-yellow-300 bg-clip-text text-transparent">
               Lo que dicen nuestros Clientes
             </span>
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="font-sans text-xl text-gray-300">
             Tenemos cada vez más clientes, por ende más trabajo...por algo será 😜
           </p>
         </div>
@@ -196,7 +196,7 @@ export default function Testimonials() {
           {/* Botón anterior */}
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white border border-gray-200 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-all flex items-center justify-center shadow-sm"
+            className="absolute left-0 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full border-yellow-600 bg-yellow-600 text-gray-600 hover:bg-yellow-300 hover:text-gray-900 transition-all flex items-center justify-center shadow-sm"
             aria-label="Anterior"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -207,7 +207,7 @@ export default function Testimonials() {
           {/* Botón siguiente */}
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white border border-gray-200 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-all flex items-center justify-center shadow-sm"
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full border-yellow-300 bg-yellow-300 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-all flex items-center justify-center shadow-sm"
             aria-label="Siguiente"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -222,9 +222,9 @@ export default function Testimonials() {
             <button
               key={i}
               onClick={() => goTo(i, i > current ? "right" : "left")}
-              className={`transition-all duration-300 rounded-full ${
+              className={`transition-all duration-300 bg-gray-400 rounded-full ${
                 i === current
-                  ? "w-6 h-2 bg-gradient-to-r from-blue-500 to-purple-500"
+                  ? "w-6 h-2 bg-gradient-to-r from-yellow-600 to-yellow-300"
                   : "w-2 h-2 bg-gray-300 hover:bg-gray-400"
               }`}
               aria-label={`Ir al testimonio ${i + 1}`}
@@ -233,7 +233,7 @@ export default function Testimonials() {
         </div>
  
         {/* Contador */}
-        <p className="text-center text-gray-400 text-xs mt-3 tabular-nums">
+        <p className="text-center text-gray-300 text-xs mt-3 tabular-nums">
           {current + 1} / {total}
         </p>
       </div>

@@ -21,7 +21,7 @@ export default function Hero() {
           <a 
             href="https://wa.me/549XXXXXXXXXX?text=Hola%20quiero%20reservar%20un%20turno"
             target="_blank"
-            className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition"
+            className="font-[sans-serif] bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition"
           >
             Reservar por WhatsApp
           </a>
