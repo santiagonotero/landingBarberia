@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="flex flex-col container-custom section-padding">
         <RevealSection direction='up'>
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <h2 className="text-5xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-yellow-600 to-yellow-300 bg-clip-text text-transparent">             
                 Dónde estamos
               </span>

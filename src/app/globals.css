@@ -48,7 +48,7 @@ html {
 
 @font-face {
   font-family: 'BirchStd';
-  src: url('/fonts/BirchStd.woff2') format('opentype');
+  src: url('../../public/fonts/BirchStd.woff2') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
