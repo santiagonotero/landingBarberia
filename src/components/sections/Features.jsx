@@ -13,39 +13,39 @@ import RevealSection from '../RevealSection'
 const features = [
   {
     icon: <Zap className="w-8 h-8" />,
-    title: 'Corte clásico',
+    title: 'Derecho laboral',
     image: '/demo/barberia/images/corteClasico/corteClasico.jpg',
     description: 'Optimizado para ofrecer la máxima velocidad y eficiencia en cada operación.',
     color: 'from-yellow-500 to-orange-500'
   },
   {
     icon: <Shield className="w-8 h-8" />,
-    title: 'Fade/Degradé',
+    title: 'Derecho penal',
     image: '/demo/barberia/images/fadeDegrade/fadeDegrade.jpg',
     description: 'Protección de datos con encriptación de punta a punta y autenticación multifactor.',
     color: 'from-green-500 to-emerald-500'
   },
   {
     icon: <BarChart3 className="w-8 h-8" />,
-    title: 'Arreglo de barba',
+    title: 'Civil y comercial',
     image: '/demo/barberia/images/arregloBarba/arregloBarba.jpg',
     description: 'Dashboard intuitivo con métricas en vivo para toma de decisiones informadas.',
     color: 'from-blue-500 to-cyan-500'
   },
   {
     icon: <Cloud className="w-8 h-8" />,
-    title: 'Perfilado',
+    title: 'Contencioso administrativo',
     image: '/demo/barberia/images/perfilado/perfilado.jpg',
     description: 'Escalabilidad automática y disponibilidad global con nuestra red de servidores.',
     color: 'from-purple-500 to-pink-500'
   },
-  {
-    icon: <Users className="w-8 h-8" />,
-    title: 'Corte + Barba',
-    image: '/demo/barberia/images/corteBarba/corteBarba.jpg',
-    description: 'Herramientas integradas para trabajo colaborativo y gestión de proyectos.',
-    color: 'from-indigo-500 to-blue-500'
-  },
+  // {
+  //   icon: <Users className="w-8 h-8" />,
+  //   title: 'Corte + Barba',
+  //   image: '/demo/barberia/images/corteBarba/corteBarba.jpg',
+  //   description: 'Herramientas integradas para trabajo colaborativo y gestión de proyectos.',
+  //   color: 'from-indigo-500 to-blue-500'
+  // },
 ]
 
 export default function Features() {

@@ -31,7 +31,7 @@ export default function Home() {
             zIndex: 1000
           }}
         >
-          <img src="/demo/barberia/images/logoWhatsapp.png" />
+          <img src="/images/logoWhatsapp.png" />
         </a>
     </main>
   )

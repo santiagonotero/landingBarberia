@@ -5,9 +5,9 @@ import { Menu, X } from 'lucide-react'
 
 const navItems = [
   { label: 'Inicio', href: '#hero' },
-  { label: 'Características', href: '#features' },
-  { label: 'Testimonios', href: '#testimonials' },
-  { label: 'Precios', href: '#pricing' },
+  { label: 'Areas de práctica', href: '#features' },
+  { label: 'Quién soy', href: '#about' },
+  { label: 'Preguntas frecuentes', href: '#faq' },
   { label: 'Contacto', href: '#contact' },
 ]
 
@@ -74,9 +74,9 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
               </a>
             ))}
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
+            {/* <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
               Comenzar
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile Menu Button */}

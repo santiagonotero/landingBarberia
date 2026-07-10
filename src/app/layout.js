@@ -6,8 +6,8 @@ import ScrollObserver from '@/components/ScrollObserver'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Barberia Central',
-  description: 'Cortes clásicos y modernos',
+  title: 'Estudio Jurídico Duarte',
+  description: 'Derecho laboral, penal, civil y comercial',
 }
 
 export default function RootLayout({ children }) {
@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="es" className="scroll-smooth">
       {/* <body className={`${inter.className} relative w-full`}> */}
       <body className='w-full'>
+        <Navbar />
         <ScrollObserver />
         {children}
       </body>

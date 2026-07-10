@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+
+  --font-title: "Merriweather", Georgia, serif;
+  --font-text: "Inter", Arial, sans-serif;
 }
 
 body {
@@ -47,12 +50,44 @@ html {
 }
 
 @font-face {
-  font-family: 'BirchStd';
-  src: url('../../public/fonts/BirchStd.woff2') format('opentype');
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../../public/fonts/Merriweather-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../../public/fonts/Merriweather-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-  font-family: 'BirchStd', sans-serif;
+  font-family: var(--font-text);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-title);
 }

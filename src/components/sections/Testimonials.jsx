@@ -164,7 +164,7 @@ export default function Testimonials() {
  
         {/* Encabezado */}
         <div className="text-center mb-14">
-          <h2 className="font-[BirchStd] text-5xl md:text-5xl lg:text-6xl font-bold mb-6">
+          <h2 className="font-[Merriweather] text-5xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-yellow-600 to-yellow-300 bg-clip-text text-transparent">
               Lo que dicen nuestros Clientes
             </span>

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/demo/barberia',
+  basePath: '',
   // assetPrefix: '/demo/barberia/',
   images: {
     unoptimized: true,
